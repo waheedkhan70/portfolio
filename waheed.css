@@ -62,7 +62,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #e6e6e6;
 }
 
 [tabindex="-1"]:focus {
@@ -4517,7 +4517,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #F85C70;
+  background-color: #f85c70;
 }
 
 .nav-fill .nav-item {
@@ -11242,7 +11242,7 @@ pre .code {
   height: 80vh;
   min-height: 600px;
   background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./img/back.jpeg);
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./img/back.jpeg);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url(./img/back.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -11263,7 +11263,7 @@ pre .code {
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
-  color: #fff;
+  color: rgb(227, 227, 227);
 }
 
 .header .header-content .header-subtitle {
@@ -11331,7 +11331,7 @@ pre .code {
           justify-content: center;
   text-align: center;
   padding: 1rem;
-  background: #fcbec6;
+  background: #befcf9;
 }
 
 .section {
