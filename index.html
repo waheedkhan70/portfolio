@@ -7,8 +7,7 @@
     <meta name="description" content="Waheedur Rahman landing page.">
     <meta name="author" content="Devcrud">
     <title>Waheedur Rahman</title>
-    <!-- font icons -->
-    <link rel="stylesheet" href="icon.css">
+  
     <!-- Bootstrap +  main styles -->
     <link rel="stylesheet" href="waheed.css">
 
@@ -22,18 +21,7 @@
   });
 })();
 </script>
-<script>
-  
-function SendMail(){
-  let details={
-    name : document.getElementById("name").value,
-    email : document.getElementById("email").value,
-    mobile : document.getElementById("mobile").value,
-    message : document.getElementById("message").value,
-  }
-  emailjs.send("service_x345cv3","template_ylkrbbt",details).then(alert("Email has been sent"))
-}
-</script>
+<script src="server.js"></script>
 
 </head>
 
@@ -43,7 +31,7 @@ function SendMail(){
         <div class="container">
             <ul class="social-icons pt-3">
                 <li class="social-item"><a class="social-link text-light" href="https://www.facebook.com/headboywaheed/"
-                        target="_blank"><img src="./img/facebook.png" height="30px" width="30px"></a></li>
+                        target="_blank"><img src="./img/facebook.png" height="30px" width="30px" ></a></li>
                 <li class="social-item"><a class="social-link text-light"
                         href="https://x.com/_iamwrk?t=WD3mZZuGZ8Wb_qs0jqDYnQ&s=08" target="_blank"><img
                             src="./img/twitter.png" height="30px" width="30px"></a></li>
@@ -119,7 +107,7 @@ function SendMail(){
                 <span class="line mb-5"></span>
                 <ul class="mt40 info list-unstyled">
                     <li><span>Birthdate</span> : February 26, 2006</li>
-                    <li><span>Email</span> : waheed066khan@gmail.com.com</li>
+                    <li><span>Email</span> : waheed066khan@gmail.com</li>
                     <li><span>Phone</span> : +91 95595 99556</li>
                     <li><span>Address</span> : Khalilabad</li>
                     <li><span>College</span> : Indian Institute of Technology Patna</li>
@@ -213,7 +201,10 @@ function SendMail(){
                         <div class="card-body">
                             <h6 class="title text-danger">2024 - Present</h6>
                             <P>Computer Science</P>
-                            <P class="subtitle">Indian Institute of Technology, Patna</P>
+                            <P class="subtitle">
+                                <a href="https://www.iitp.ac.in/" target="_blank" style="color: rgb(79, 79, 79);">
+                                Indian Institute of Technology, Patna</a>
+                            </P>
                             <hr>
                             <h6 class="title text-danger">2021 - 2023</h6>
                             <P>Intermediate Degree</P>
